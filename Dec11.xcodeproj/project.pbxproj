@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39C474AC148978D800203FA8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C474AB148978D800203FA8 /* UIKit.framework */; };
+		39C474AE148978D800203FA8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C474AD148978D800203FA8 /* Foundation.framework */; };
+		39C474B0148978D800203FA8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C474AF148978D800203FA8 /* CoreGraphics.framework */; };
+		39C474B6148978D800203FA8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 39C474B4148978D800203FA8 /* InfoPlist.strings */; };
+		39C474B8148978D800203FA8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C474B7148978D800203FA8 /* main.m */; };
+		39C474BC148978D800203FA8 /* OrsonAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 39C474BB148978D800203FA8 /* OrsonAppDelegate.m */; };
+		39C474C314897B8800203FA8 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39C474C214897B8800203FA8 /* MediaPlayer.framework */; };
+		39C474C9148980B000203FA8 /* cotton.png in Resources */ = {isa = PBXBuildFile; fileRef = 39C474C8148980B000203FA8 /* cotton.png */; };
+		39E7D5D7148D2A1D0004A7A7 /* cuckoo.mov in Resources */ = {isa = PBXBuildFile; fileRef = 39E7D5D6148D2A1D0004A7A7 /* cuckoo.mov */; };
+		39E7D5D9148D2A370004A7A7 /* theme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 39E7D5D8148D2A370004A7A7 /* theme.mp3 */; };
+		39E7D5DB148D2E0C0004A7A7 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39E7D5DA148D2E0C0004A7A7 /* AVFoundation.framework */; };
+		39E7D5E0148D325D0004A7A7 /* Still.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7D5DC148D325D0004A7A7 /* Still.png */; };
+		39E7D5E2148D325D0004A7A7 /* Theme.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7D5DE148D325D0004A7A7 /* Theme.png */; };
+		39E7D5E3148D325D0004A7A7 /* Video.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7D5DF148D325D0004A7A7 /* Video.png */; };
+		39E7D5E7148D34050004A7A7 /* posterimage.png in Resources */ = {isa = PBXBuildFile; fileRef = 39E7D5E5148D34050004A7A7 /* posterimage.png */; };
+		A29C2BBA1677C21D00776448 /* Profile.png in Resources */ = {isa = PBXBuildFile; fileRef = A29C2BB91677C21D00776448 /* Profile.png */; };
+		A29C2BBC1677C63400776448 /* Oprah.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A29C2BBB1677C63400776448 /* Oprah.jpg */; };
+		A29C2BBE1677CBE100776448 /* OprahTheme.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = A29C2BBD1677CBE100776448 /* OprahTheme.mp3 */; };
+		A29C2BC61677DE1300776448 /* OprahShow.mov in Resources */ = {isa = PBXBuildFile; fileRef = A29C2BC51677DE1300776448 /* OprahShow.mov */; };
+		A29C2BCC1677E0C200776448 /* Location-Pointer.png in Resources */ = {isa = PBXBuildFile; fileRef = A29C2BCB1677E0C200776448 /* Location-Pointer.png */; };
+		A29C2BCE1677E36D00776448 /* triRight.png in Resources */ = {isa = PBXBuildFile; fileRef = A29C2BCD1677E36D00776448 /* triRight.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		39C474A7148978D800203FA8 /* Dec11.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dec11.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		39C474AB148978D800203FA8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		39C474AD148978D800203FA8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		39C474AF148978D800203FA8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		39C474B3148978D800203FA8 /* Dec11-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Dec11-Info.plist"; sourceTree = "<group>"; };
+		39C474B5148978D800203FA8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		39C474B7148978D800203FA8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		39C474B9148978D800203FA8 /* Dec11-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Dec11-Prefix.pch"; sourceTree = "<group>"; };
+		39C474BA148978D800203FA8 /* OrsonAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrsonAppDelegate.h; sourceTree = "<group>"; };
+		39C474BB148978D800203FA8 /* OrsonAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrsonAppDelegate.m; sourceTree = "<group>"; };
+		39C474C214897B8800203FA8 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		39C474C8148980B000203FA8 /* cotton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cotton.png; sourceTree = SOURCE_ROOT; };
+		39E7D5D6148D2A1D0004A7A7 /* cuckoo.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = cuckoo.mov; sourceTree = SOURCE_ROOT; };
+		39E7D5D8148D2A370004A7A7 /* theme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = theme.mp3; sourceTree = SOURCE_ROOT; };
+		39E7D5DA148D2E0C0004A7A7 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		39E7D5DC148D325D0004A7A7 /* Still.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Still.png; sourceTree = SOURCE_ROOT; };
+		39E7D5DE148D325D0004A7A7 /* Theme.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Theme.png; sourceTree = SOURCE_ROOT; };
+		39E7D5DF148D325D0004A7A7 /* Video.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Video.png; sourceTree = SOURCE_ROOT; };
+		39E7D5E5148D34050004A7A7 /* posterimage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = posterimage.png; sourceTree = SOURCE_ROOT; };
+		A29C2BB91677C21D00776448 /* Profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Profile.png; sourceTree = "<group>"; };
+		A29C2BBB1677C63400776448 /* Oprah.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Oprah.jpg; sourceTree = "<group>"; };
+		A29C2BBD1677CBE100776448 /* OprahTheme.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = OprahTheme.mp3; sourceTree = "<group>"; };
+		A29C2BC51677DE1300776448 /* OprahShow.mov */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = OprahShow.mov; sourceTree = "<group>"; };
+		A29C2BCB1677E0C200776448 /* Location-Pointer.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Location-Pointer.png"; sourceTree = "<group>"; };
+		A29C2BCD1677E36D00776448 /* triRight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = triRight.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		39C474A4148978D800203FA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39E7D5DB148D2E0C0004A7A7 /* AVFoundation.framework in Frameworks */,
+				39C474C314897B8800203FA8 /* MediaPlayer.framework in Frameworks */,
+				39C474AC148978D800203FA8 /* UIKit.framework in Frameworks */,
+				39C474AE148978D800203FA8 /* Foundation.framework in Frameworks */,
+				39C474B0148978D800203FA8 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39C4749C148978D800203FA8 = {
+			isa = PBXGroup;
+			children = (
+				39C474B1148978D800203FA8 /* Orson */,
+				39C474AA148978D800203FA8 /* Frameworks */,
+				39C474A8148978D800203FA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		39C474A8148978D800203FA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				39C474A7148978D800203FA8 /* Dec11.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		39C474AA148978D800203FA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				39E7D5DA148D2E0C0004A7A7 /* AVFoundation.framework */,
+				39C474C214897B8800203FA8 /* MediaPlayer.framework */,
+				39C474AB148978D800203FA8 /* UIKit.framework */,
+				39C474AD148978D800203FA8 /* Foundation.framework */,
+				39C474AF148978D800203FA8 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		39C474B1148978D800203FA8 /* Orson */ = {
+			isa = PBXGroup;
+			children = (
+				39C474BA148978D800203FA8 /* OrsonAppDelegate.h */,
+				39C474BB148978D800203FA8 /* OrsonAppDelegate.m */,
+				39C474B2148978D800203FA8 /* Supporting Files */,
+			);
+			path = Orson;
+			sourceTree = "<group>";
+		};
+		39C474B2148978D800203FA8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A29C2BCD1677E36D00776448 /* triRight.png */,
+				A29C2BCB1677E0C200776448 /* Location-Pointer.png */,
+				A29C2BC51677DE1300776448 /* OprahShow.mov */,
+				A29C2BBD1677CBE100776448 /* OprahTheme.mp3 */,
+				A29C2BBB1677C63400776448 /* Oprah.jpg */,
+				A29C2BB91677C21D00776448 /* Profile.png */,
+				39E7D5E5148D34050004A7A7 /* posterimage.png */,
+				39E7D5DC148D325D0004A7A7 /* Still.png */,
+				39E7D5DE148D325D0004A7A7 /* Theme.png */,
+				39E7D5DF148D325D0004A7A7 /* Video.png */,
+				39E7D5D8148D2A370004A7A7 /* theme.mp3 */,
+				39E7D5D6148D2A1D0004A7A7 /* cuckoo.mov */,
+				39C474C8148980B000203FA8 /* cotton.png */,
+				39C474B3148978D800203FA8 /* Dec11-Info.plist */,
+				39C474B4148978D800203FA8 /* InfoPlist.strings */,
+				39C474B7148978D800203FA8 /* main.m */,
+				39C474B9148978D800203FA8 /* Dec11-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		39C474A6148978D800203FA8 /* Dec11 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 39C474BF148978D800203FA8 /* Build configuration list for PBXNativeTarget "Dec11" */;
+			buildPhases = (
+				39C474A3148978D800203FA8 /* Sources */,
+				39C474A4148978D800203FA8 /* Frameworks */,
+				39C474A5148978D800203FA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dec11;
+			productName = Orson;
+			productReference = 39C474A7148978D800203FA8 /* Dec11.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		39C4749E148978D800203FA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 39C474A1148978D800203FA8 /* Build configuration list for PBXProject "Dec11" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 39C4749C148978D800203FA8;
+			productRefGroup = 39C474A8148978D800203FA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				39C474A6148978D800203FA8 /* Dec11 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		39C474A5148978D800203FA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C474B6148978D800203FA8 /* InfoPlist.strings in Resources */,
+				39C474C9148980B000203FA8 /* cotton.png in Resources */,
+				39E7D5D7148D2A1D0004A7A7 /* cuckoo.mov in Resources */,
+				39E7D5D9148D2A370004A7A7 /* theme.mp3 in Resources */,
+				39E7D5E0148D325D0004A7A7 /* Still.png in Resources */,
+				39E7D5E2148D325D0004A7A7 /* Theme.png in Resources */,
+				39E7D5E3148D325D0004A7A7 /* Video.png in Resources */,
+				39E7D5E7148D34050004A7A7 /* posterimage.png in Resources */,
+				A29C2BBA1677C21D00776448 /* Profile.png in Resources */,
+				A29C2BBC1677C63400776448 /* Oprah.jpg in Resources */,
+				A29C2BBE1677CBE100776448 /* OprahTheme.mp3 in Resources */,
+				A29C2BC61677DE1300776448 /* OprahShow.mov in Resources */,
+				A29C2BCC1677E0C200776448 /* Location-Pointer.png in Resources */,
+				A29C2BCE1677E36D00776448 /* triRight.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		39C474A3148978D800203FA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39C474B8148978D800203FA8 /* main.m in Sources */,
+				39C474BC148978D800203FA8 /* OrsonAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		39C474B4148978D800203FA8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				39C474B5148978D800203FA8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		39C474BD148978D800203FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		39C474BE148978D800203FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		39C474C0148978D800203FA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orson/Dec11-Prefix.pch";
+				INFOPLIST_FILE = "Orson/Dec11-Info.plist";
+				PRODUCT_NAME = Dec11;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		39C474C1148978D800203FA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Orson/Dec11-Prefix.pch";
+				INFOPLIST_FILE = "Orson/Dec11-Info.plist";
+				PRODUCT_NAME = Dec11;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		39C474A1148978D800203FA8 /* Build configuration list for PBXProject "Dec11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C474BD148978D800203FA8 /* Debug */,
+				39C474BE148978D800203FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		39C474BF148978D800203FA8 /* Build configuration list for PBXNativeTarget "Dec11" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				39C474C0148978D800203FA8 /* Debug */,
+				39C474C1148978D800203FA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 39C4749E148978D800203FA8 /* Project object */;
+}
